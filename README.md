@@ -1,5 +1,7 @@
 which vim
 
+chmod rwx file
+
 ls -al /bin/vi*
 
 :q // quit
@@ -11,3 +13,11 @@ vim -g
 
 echo " " > test.txt
 
+:e
+
+:q!
+
+i // insert 
+esc // to exit 
+
+x // delete
