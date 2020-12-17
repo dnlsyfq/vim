@@ -38,3 +38,18 @@ W  SKIP nth LETTER
 $ JUMP-PARAGRAPH
 
 ```
+
+### Manipulating Text
+
+```
+* In Command Mode
+
+r  # Edit
+a  # append
+u  # undo
+d  # delete
+x  # delete 1 character 
+```
+
+
+
