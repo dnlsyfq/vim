@@ -51,5 +51,15 @@ d  # delete
 x  # delete 1 character 
 ```
 
+### Copy , Paste and Replace
 
+```
+* In Command Mode
+
+yy # copy
+p  # paste
+>  # twice to indent
+/ex  # find ex 
+: #s/ex/EX/gc  # find ex replace with EX , globally and confirm
+```
 
