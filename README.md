@@ -60,6 +60,15 @@ yy # copy
 p  # paste
 >  # twice to indent
 /ex  # find ex 
-: #s/ex/EX/gc  # find ex replace with EX , globally and confirm
+: #s/ex/EX/gc       # find ex replace with EX , globally and confirm
+: 16,23 ! sort -r   # swap 16 to 23 , 23 to 16 and write in vim 
+```
+
+### External Commend in VIM
+
+```
+:! ls -al ~                   # list all items in pwd in vim command mode 
+:r ! cat/root/.bash_profile   # write in vim 
+:r ! ls -al /etc | wc -l      # write list all items in etc pipe word cound in vim 
 ```
 
