@@ -23,6 +23,24 @@ esc // to exit
 x // delete
 
 
+### On Start
+
+```
+
+$ vim
+:e <filename>
+i // insert
+
+```
+
+### Save
+```
+:w // write
+:saveas <filename> // new file
+:q!
+```
+
+
 ### Navigating in Command 
 
 ```
